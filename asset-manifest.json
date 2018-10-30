@@ -1,13 +1,13 @@
 {
-  "main.css": "/faceMoji/static/css/main.32a53741.chunk.css",
-  "main.js": "/faceMoji/static/js/main.62813b9e.chunk.js",
-  "main.js.map": "/faceMoji/static/js/main.62813b9e.chunk.js.map",
-  "static/js/1.0c206070.chunk.js": "/faceMoji/static/js/1.0c206070.chunk.js",
-  "static/js/1.0c206070.chunk.js.map": "/faceMoji/static/js/1.0c206070.chunk.js.map",
+  "main.css": "/faceMoji/static/css/main.154a8eb2.chunk.css",
+  "main.js": "/faceMoji/static/js/main.72cc06aa.chunk.js",
+  "main.js.map": "/faceMoji/static/js/main.72cc06aa.chunk.js.map",
+  "static/js/1.3fed338a.chunk.js": "/faceMoji/static/js/1.3fed338a.chunk.js",
+  "static/js/1.3fed338a.chunk.js.map": "/faceMoji/static/js/1.3fed338a.chunk.js.map",
   "runtime~main.js": "/faceMoji/static/js/runtime~main.9575f589.js",
   "runtime~main.js.map": "/faceMoji/static/js/runtime~main.9575f589.js.map",
-  "static/css/main.32a53741.chunk.css.map": "/faceMoji/static/css/main.32a53741.chunk.css.map",
+  "static/css/main.154a8eb2.chunk.css.map": "/faceMoji/static/css/main.154a8eb2.chunk.css.map",
   "index.html": "/faceMoji/index.html",
-  "precache-manifest.23a96d260294d6b22aadaf2c80cd424a.js": "/faceMoji/precache-manifest.23a96d260294d6b22aadaf2c80cd424a.js",
+  "precache-manifest.ff57a3ef7d56bdb07faf986424743d2e.js": "/faceMoji/precache-manifest.ff57a3ef7d56bdb07faf986424743d2e.js",
   "service-worker.js": "/faceMoji/service-worker.js"
 }
