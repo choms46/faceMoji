@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# faceMoji
+Combine your string with Emoji
+
+https://choms46.github.io/faceMoji
+
 
 ## Available Scripts
 
