@@ -23,6 +23,7 @@ class Convert extends Component {
           id = "input"
           name="string"
           autocomplete="off"
+          autocorrect="off"
           onChange={this.handleChange} 
         />
         
