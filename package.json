@@ -5,6 +5,7 @@
   "homepage": "https://choms46.github.io/faceMoji",
   "dependencies": {
     "react": "^16.6.0",
+    "react-copy-to-clipboard": "^5.0.1",
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^16.6.0",
     "react-native-rename": "^2.2.2",

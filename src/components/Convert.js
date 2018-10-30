@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 class Convert extends Component {
   
   state = {
-    string: ""
+    string: "",
+    copied: false
   };
 
   handleChange = (e) => {
@@ -23,8 +25,10 @@ class Convert extends Component {
           autocomplete="off"
           onChange={this.handleChange} 
         />
-
-        <div id="result">{this.state.string}</div>
+        
+        <CopyToClipboard text={this.state.string} onCopy={() => alert("Copied!")}>
+          <div id="result">{this.state.string}</div>
+        </CopyToClipboard>
       </div>
     );
   }
