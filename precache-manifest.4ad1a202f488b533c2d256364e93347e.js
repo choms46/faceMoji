@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/faceMoji/static/css/main.32a53741.chunk.css"
   },
   {
-    "revision": "70e9af3cb8cf81c4376dd3fb53ba2b0b",
+    "revision": "acf6c9f61f79801664b3558379fea98c",
     "url": "/faceMoji/index.html"
   }
 ];
