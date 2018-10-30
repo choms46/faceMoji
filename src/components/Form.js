@@ -15,7 +15,7 @@ class Form extends Component {
   
   render() {
     let id = 0;
-    const smiles = ['꙼̈','̄̈','̐̈','̊̈','̑̈','̤̻','̑̈'];
+    const smiles = ['̆̈','̄̈','̐̈','̊̈','̑̈','̤̻','̑̈'];
     const list = smiles.map(
       n => (<Radio onChange={this.handleChange} name={n} key={id} id={id++} />)
     )

@@ -4,7 +4,7 @@ class Radio extends Component {
   
   render() {
     const { name, id, onChange } = this.props;
-    const preview="ㅡ"+name;
+    const preview = "ㅡ"+name;
     return (
       <div class="input">
         <input
