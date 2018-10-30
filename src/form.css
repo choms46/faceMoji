@@ -24,9 +24,12 @@ body {
   padding-bottom:0.5rem;
   color: #282c34;
   border: 1rem;
+  border-radius: 0;
   opacity: 0.8;
   outline: none;
   text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
 }
 
 #convert {
