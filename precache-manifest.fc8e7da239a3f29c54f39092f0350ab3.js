@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/faceMoji/static/js/runtime~main.9575f589.js"
   },
   {
-    "revision": "72cc06aa3b8cf56e2574",
-    "url": "/faceMoji/static/js/main.72cc06aa.chunk.js"
+    "revision": "df69ebe7595fbb67a38c",
+    "url": "/faceMoji/static/js/main.df69ebe7.chunk.js"
   },
   {
     "revision": "3fed338a7a8647ed07db",
     "url": "/faceMoji/static/js/1.3fed338a.chunk.js"
   },
   {
-    "revision": "72cc06aa3b8cf56e2574",
-    "url": "/faceMoji/static/css/main.154a8eb2.chunk.css"
+    "revision": "df69ebe7595fbb67a38c",
+    "url": "/faceMoji/static/css/main.0052d212.chunk.css"
   },
   {
-    "revision": "a564f1bc6197e1a800b98f66cb989faa",
+    "revision": "d73a544e37cdd21a3cb3e51764301dd0",
     "url": "/faceMoji/index.html"
   }
 ];
