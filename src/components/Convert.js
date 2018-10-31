@@ -2,21 +2,10 @@ import React, { Component } from "react";
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 class Convert extends Component {
-  
-  state = {
-    string: "",
-    copied: false
-  };
 
-  handleChange = (e) => {
-    const { id } = this.props;
-    const string = e.target.value.replace(/\S/g,"$&"+id);
-    this.setState({
-      [e.target.name]: string
-    });
-  };
-  
   render() {
+    const { onChange, string } = this.props;
+
     return (
       <div id="convert">
         <input 
@@ -24,12 +13,14 @@ class Convert extends Component {
           name="string"
           autocomplete="off"
           autocorrect="off"
-          onChange={this.handleChange} 
+          spellcheck="false"
+          onChange={onChange}
         />
-        
-        <CopyToClipboard text={this.state.string} onCopy={() => alert("Copied!")}>
-          <div id="result">{this.state.string}</div>
-        </CopyToClipboard>
+        <div id="result">
+          <CopyToClipboard text={string} onCopy={() => alert("복사됐습니다")}>
+            <h4>{string}</h4>
+          </CopyToClipboard>
+        </div>
       </div>
     );
   }
